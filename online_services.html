@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Injaz CTC</title>
+<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="fonts/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/global.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="css/slides.min.jquery.js"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" charset="utf-8" />
+<script src="js/coda.js" type="text/javascript"> </script>
+
+<script>
+		$(function(){
+			// Set starting slide to 1
+			var startSlide = 1;
+			// Get slide number if it exists
+			if (window.location.hash) {
+				startSlide = window.location.hash.replace('#','');
+			}
+			// Initialize Slides
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'images/loading.gif',
+				generatePagination: true,
+				play: 6000,
+				pause: 500,
+				hoverPause: false,
+				// Get the starting slide
+				start: startSlide,
+				animationComplete: function(current){
+					// Set the slide number as a hash
+					window.location.hash = '#' + current;
+				}
+			});
+		});
+	</script>
+<link href="css/tipTip.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.tipTip.js"></script>
+<script>$(function(){
+$(".tooltip").tipTip();
+});</script>
+
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="container_top"></div>
+<div id="container">
+  <div id="header_container">
+    <div class="logo">
+      <a href="index.html"><img src="images/injazzctc_logo.png"  alt="InjazCTC" width="298" height="90" border="0" /></a> 
+    </div>
+  </div><!--header_container-->
+       <ul>
+          <li class="TabbedPanelsTab tab3 tabselect" ><a href="online_services.html">Online Education <br />& Services</a></li>
+          <li class="TabbedPanelsTab tab2" ><a href="it_solutions.html">IT <br />Solutions</a></li>
+          <li class="TabbedPanelsTab tab1" ><a href="index.html">Training <br />Consultancy</a></li>
+        </ul>  
+  <div id="banner_container">
+
+
+         <div id="slides"> <!--SLIDES-->
+            <div class="slides_container">
+            
+              <div class="slide1">
+                <!--Content 1-->
+                 <div class="banner_left">
+                 <div class="ban">
+                  <h1>Online Education <br />and Services</h1>
+                  <p>Our programs deliver cognitive information and training that improves understanding and competency</p>
+                  </div>
+                 </div><!--banner_left-->
+                <div class="banner_right">
+                  <img src="images/banner_online.jpg" align="" />
+                </div>
+                <!--Content 1-->
+              </div><!-- end slide-->
+     
+              <div class="slide2">
+                <!--Content 2-->
+                 <div class="banner_left">
+                 <div class="ban">
+                  <h1>Business Courses</h1>
+                  <p>Become a more effective leader and give your career a boost by mastering our Business Skills and  and leadership courses.</p>
+                  </div>
+                  <div class="learnmore"> 
+                    <a href="business_courses.html">learn More <img src="images/arrow.png" width="13" height="13" alt="&gt;" /></a>
+                  </div>
+                </div><!--banner_left-->
+                <div class="banner_right">
+                  <img src="images/banner_businesses.png" align="" />
+                </div>
+                <!--Content 2-->
+              </div><!-- end slide-->  
+              
+     
+              <div class="slide3">
+                <!--Content 3-->
+                 <div class="banner_left">
+                 <div class="ban">
+                  <h1>Computer Skills<br /> Courses</h1>
+                  <p>There are computing courses at all levels, for beginners and beyond. Many courses are flexible, so you can learn when you want and at your own pace.</p>
+                  </div>
+                  <div class="learnmore"> 
+                    <a href="computer_skills_courses.html">learn More <img src="images/arrow.png" width="13" height="13" alt="&gt;" /></a>
+                  </div>
+                </div><!--banner_left-->
+                <div class="banner_right">
+                  <img src="images/banner_onlineserv.jpg" align="" />
+                </div>
+                <!--Content 3-->
+              </div><!-- end slide-->  
+ 
+           </div><!--slides_container-->
+          </div><!--slides-->            
+  </div><!--banner_container-->
+  <div id="navigation_container">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="our_services.html">Our Services</a></li>
+      <li><a href="ceo_message.html">CEO's Message</a></li>
+      <li><a href="coming_soon.html">Coming Soon</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+  </div><!--navigation-->  
+  <div class="clearfloat"></div>
+  
+  <div id="content_container">
+  
+<div class="content_right">
+      <div class="content_programs">
+        <h1>Topics List</h1>
+         
+        <div class="menu">
+          <ul id="MenuBar1" class="MenuBarVertical">
+            <li><a href="business_courses.html">Business Courses</a> </li>
+            <li><a href="computer_skills_courses.html">Computer Skills Courses</a> </li>
+					</ul>
+        </div><!--menu -->
+              
+      </div><!--programs-->
+      <br />
+      <div class="content_news">
+        <h1>Latest News</h1>
+        
+        <div class="news">
+          <h3><a href="#">Injazz CTC Latest Site Launched</a></h3>
+          <p>Posted on 12 April 2012</p>
+        </div>
+        
+        <div class="news">
+          <h3><a href="#">Injazz CTC Latest Site Launched</a></h3>
+          <p>Posted on 12 April 2012</p>
+        </div>
+        
+        <div class="news">
+          <h3><a href="#">Injazz CTC Latest Site Launched</a></h3>
+          <p>Posted on 12 April 2012</p>
+        </div>
+        
+        <br />
+        <h1><img src="images/1335603629_calendar-blue.png" width="32" height="32" alt=" " /> Calendar</h1>
+         <table cellspacing="0">
+          <thead>
+              <tr>
+                <th>Mon</th><th>Tue</th><th>Wed</th>
+                <th>Thu</th><th>Fri</th><th>Sat</th>
+                <th>Sun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="padding" colspan="3"></td>
+                <td> 1</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+              </tr>
+              <tr>
+                <td> 5</td>
+                <td> 6</td>
+                <td> 7</td>
+                <td> 8</td>
+                <td class="today"> 9</td>
+                <td>10</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td class="date_has_event">
+                  13
+                  <div class="events">
+                    <ul>
+                      <li>
+                        <span class="title">Computer Skills</span>
+                        <span class="desc">Microsoft Word</span>
+                        <span class="desc">Microsoft PowerPoint</span>
+                      </li>
+                      <li>
+                        <span class="title">Business Courses</span>
+                        <span class="desc">Business Writing</span>
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td class="date_has_event">
+                  22
+                  <div class="events">
+                    <ul>
+                      <li>
+                        <span class="title">Computer Skills</span>
+                        <span class="desc">Microsoft Word</span>
+                        <span class="desc">Microsoft PowerPoint</span>
+                      </li>
+                      <li>
+                        <span class="title">Business Courses</span>
+                        <span class="desc">Business Writing</span>
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+              </tr>	
+              <tr>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="padding"></td>
+              </tr>
+            </tbody>
+ 
+          </table>
+        <br />
+                
+              <div class="content_news">
+         <div class="live_chat">
+          <h1><img src="images/live_chat.png" width="30" height="30" alt=" " /> Get in Touch</h1>
+          <h4>If you have any suggestions or queries, please feel free to get in touch with us</h4>
+          <div class="learnmore"> 
+            <a href="contact_us.html">Contact Us</a>
+          </div>
+        </div>
+      </div><!--news-->
+      
+      </div><!--news-->
+    </div><!--conent_right-->
+        <div class="search">
+          <form id="searchForm" method="post">
+          <fieldset>
+               <input type="submit" value="Search" id="submitButton" class="submit" />
+               <input type="text" class="srh" id="s" value="Search..." placeholder="search" />
+           </fieldset>
+          </form>
+      
+          <div id="resultsDiv"></div>
+        </div><!--search-->
+        
+      <div class="content_left">
+      <h1>Online Education and Services</h1>
+      <p>Injaz CTC is a privately owned company providing <strong>learning solutions</strong> and <strong>learning content</strong> to both business entities and professional business leaders.</p>
+      <p>We believe that you deserve flexibility and choice. You can choose when and where to access our training opportunities.</p>
+      <h2>How?</h2> 
+      <p>InjazCTC is specialized in e-learning program skills. Our programs deliver cognitive information and training that improves understanding and competency, such as:</p>
+</p>
+<div class="logo_tree">
+        <div class="label tcs_7">
+          <a href="business_courses.html"  >Business Courses</a>
+        </div>
+        <div class="label tcs_10">
+          <a href="computer_skills_courses.html"  >Computer Skill<br />Courses</a>
+        </div>
+      </div>      
+          
+    </div><!--content left-->
+   </div><!--content_container-->
+  
+  <div class="clearfloat"></div>
+  
+  <div id="footer_container">
+    <div class="footer_left">
+    <p style="font-size:11px; color: #718ACC">© 2012 Injaz CTC -  All rights reserved </p>
+    <p><a href="sitemap.html">Sitemap</a></p> 
+    </div>
+    
+    <div class="footer_left">
+    <p>
+      Phone:&nbsp;<span class="numbers">+971 4 2932514 </span>
+    </p>
+    <p>
+      Fax:&nbsp; <span class="numbers">+971 4 443 1610</span>
+    </p>
+    </div>
+    
+    <div class="footer_left">
+    <p>    Skype:&nbsp;    <a href="skype:[injazctc]?call">injazctc</a></p>
+    <p>    Email:&nbsp;    <a href="mailto:info@injazctc.com">info@injazctc.com</a></p>
+    <p>    Website:&nbsp;    <a href="http://www.injazctc.com">www.injazctc.com</a></p>
+    </div>
+    
+    <div class="footer_right">
+    <p> 
+      <img src="images/socia2l.png" alt="Social Links" width="123" height="69" border="0" usemap="#Map" style="margin-bottom: -15px;" /> <map name="Map" id="Map">
+      <area shape="rect" coords="-1,-3,27,32" href="http://www.facebook.com/pages/Injaz-CTC/292322597514180" target="_blank" alt="facebook" title="facebook" />
+      <area shape="rect" coords="96,-2,126,32" href="https://twitter.com/#!/@InjazCTC" target="_blank" alt="twitter" title="twitter" />
+      <area shape="rect" coords="-3,40,29,75" href="skype:[injazctc]?call" target="_blank" alt="skype" title="linkedin" />
+      <area shape="rect" coords="47,40,75,76" href="mailto:info@injazctc.com" target="_blank" alt="email" title="skype" />
+      <area shape="rect" coords="95,38,134,77" href="#" target="_blank" alt="linkedin" />
+			<area shape="rect" coords="48,-4,77,31" href="http://www.youtube.com/injazctc" target="_blank" alt="youtube" title="youtube" />
+      </map>
+    </p>
+    </div>
+  </div><!--footer_container-->
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+ </script>
+<script src="script.js"></script>
+</body>
+</html>

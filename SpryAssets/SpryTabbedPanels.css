@@ -1,0 +1,56 @@
+
+.TabbedPanelsTab a {
+	position: relative;
+	top: 1px;
+	float: right;
+	padding: 20px 10px 0 10px;
+ 	background-color: #e0e0e0;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+  font: normal 18px/18px 'SpeakHeavy';
+  width:154px;
+  height:56px;
+  text-align: center;
+  margin: 0 5px 1px 0;
+  display:inline-block;
+  z-index:99999;
+}
+
+.tabselect a, .TabbedPanelsTab a:hover {
+	background: #1d3779 ;
+  color:#FFF !important;
+}
+.TabbedPanelsTabSelected {
+	background-color: #1d3779;
+  color:#FFF;
+ }
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+ .TabbedPanelsContentVisible {
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: inline-block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: inline-block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: inline-block !important;
+	 clear:both !important;
+}
+}

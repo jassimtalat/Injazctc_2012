@@ -1,0 +1,72 @@
+table {
+  font: normal 17px 'SpeakBold';
+	border-collapse: separate;
+	margin: 10px auto;
+  text-align: center;
+}
+td, th {
+	width: 5px;
+	height: 5px;
+	text-align: center;
+	vertical-align: middle;
+	background: #304fa5;
+	color: #fff;
+	position: relative;
+  padding: 4px;
+}
+th {
+	height: 30px;
+	font-size: 12px;
+}
+td:hover, th:hover {
+  background: white;
+	color: #000;
+  cursor: pointer;
+}
+td.date_has_event {
+  background: #ccc;
+	color: #000;
+}
+td.date_has_event:hover {
+	background-position: 162px -81px;
+}
+td.padding {
+ }
+td.today {
+ 	color: white;
+ }
+td.today:hover {
+ }
+.events {
+	position: relative;
+}
+.events ul {
+	text-align: left;
+	position: absolute;
+	display: none;
+	z-index: 1000;
+	padding: 15px;
+	background: #E7ECF2;
+	color: white;
+	font-size: 12px;
+	width: 200px;
+	-border-radius: 3px;
+	list-style: none;
+	color: #444444;
+	-webkit-box-shadow: 0px 3px 5px #666;
+}
+.events li {
+	padding-bottom: 5px;
+}
+.events li span {
+	display: block;
+	font-size: 12px;
+	text-align: justify;
+	color: #555;
+}
+.events li span.title {
+ 	color: #222;
+  font: normal 14px 'SpeakHeavy';	
+}
+
+thead th {  background: #111; }

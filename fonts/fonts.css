@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'JellykaSaintAndrewsQueenRg';
+    src: url('saint-andrews_queen-webfont.eot');
+    src: url('saint-andrews_queen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('saint-andrews_queen-webfont.woff') format('woff'),
+         url('saint-andrews_queen-webfont.ttf') format('truetype'),
+         url('saint-andrews_queen-webfont.svg#JellykaSaintAndrewsQueenRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SpeakBold';
+    src: url('speak-bold-webfont.eot');
+    src: url('speak-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('speak-bold-webfont.woff') format('woff'),
+         url('speak-bold-webfont.ttf') format('truetype'),
+         url('speak-bold-webfont.svg#SpeakBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpeakHeavy';
+    src: url('speak-heavy-webfont.eot');
+    src: url('speak-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('speak-heavy-webfont.woff') format('woff'),
+         url('speak-heavy-webfont.ttf') format('truetype'),
+         url('speak-heavy-webfont.svg#SpeakHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpeakHeavyItalic';
+    src: url('speak-heavyitalic-webfont.eot');
+    src: url('speak-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('speak-heavyitalic-webfont.woff') format('woff'),
+         url('speak-heavyitalic-webfont.ttf') format('truetype'),
+         url('speak-heavyitalic-webfont.svg#SpeakHeavyItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TurminoNormalRegular';
+    src: url('turmino-normal-webfont.eot');
+    src: url('turmino-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('turmino-normal-webfont.woff') format('woff'),
+         url('turmino-normal-webfont.ttf') format('truetype'),
+         url('turmino-normal-webfont.svg#TurminoNormalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpeakTFRegularItalic';
+    src: url('speaktf-regularitalic-webfont.eot');
+    src: url('speaktf-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('speaktf-regularitalic-webfont.woff') format('woff'),
+         url('speaktf-regularitalic-webfont.ttf') format('truetype'),
+         url('speaktf-regularitalic-webfont.svg#SpeakTFRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TurminoLightRegular';
+    src: url('turmino-light-webfont.eot');
+    src: url('turmino-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('turmino-light-webfont.woff') format('woff'),
+         url('turmino-light-webfont.ttf') format('truetype'),
+         url('turmino-light-webfont.svg#TurminoLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpeakTFLightItalic';
+    src: url('speaktf-lightitalic-webfont.eot');
+    src: url('speaktf-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('speaktf-lightitalic-webfont.woff') format('woff'),
+         url('speaktf-lightitalic-webfont.ttf') format('truetype'),
+         url('speaktf-lightitalic-webfont.svg#SpeakTFLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpeakTFLight';
+    src: url('speaktf-light-webfont.eot');
+    src: url('speaktf-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('speaktf-light-webfont.woff') format('woff'),
+         url('speaktf-light-webfont.ttf') format('truetype'),
+         url('speaktf-light-webfont.svg#SpeakTFLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
